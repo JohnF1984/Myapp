@@ -1,6 +1,6 @@
 #Assignment 1 - AngularJS app.
 
-Name: ... your name ...
+Name: John Fitzpatrick
 
 ###Overview.
 ...... A statement of the app concept and objectives (about 1/2 page) ........
