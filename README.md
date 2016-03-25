@@ -3,7 +3,7 @@
 Name: John Fitzpatrick
 
 ###Overview.
-Based on the inspirational Geroge Constanza (of Seinfeld fame) who became rich by creating an app that listed all the public toilets in New York City and where they were, I decided I wanted to do something similar with breastfeeding facilities around Ireland. The source of this idea came from a family holiday last year in which we were travelling from Waterford to Westport but had to stop somewhere around Gort to feed our child. I thought at the time... Wouldn't it be wonderful if there was an application that would let me know where such a public amenty might be? 
+Based on the inspirational George Constanza (of Seinfeld fame) who became rich by creating an app that listed all the public toilets in New York City and where they were, I decided I wanted to do something similar with breastfeeding facilities around Ireland. The source of this idea came from a family holiday last year in which we were travelling from Waterford to Westport but had to stop somewhere around Gort to feed our child. I thought at the time... Wouldn't it be wonderful if there was an application that would let me know where such a public amenty might be? 
 
 This is an attempot at such an application. It has such a list of breastfeeding facilities available. (based on underlying json data). Here you can search by county/town or what's the most popular. Underlying information for each facility deals with on-site parking/directions and other baby friendly amenities close by.
 
@@ -23,29 +23,54 @@ In addition, there is a also a community form for parents to leave feedback abou
 . AngularJS 1.x
 + Bootstrap 3
 + Firebase
-+ etc 
 
 To view the application. Pull all files from this directory (Myapp) and In a terminal redirect to that directory. Run the http-server and enter the following in the browser: http//locahost/8080/BabyAdventuresApp/#/home 
 
 ###Data Model Design.
 
-Diagram of app's data model (see example below) AND/OR a sample of the test data used (JSON or equivalent).
+There are two sources of data for the app. (as it currently stands - with no back end development)
+
+For /Feedback - The community form it is user based information and stored locally in memory
 
 ![][image1]
 
-Use meaningful sample data. Briefly explain any non-trivial issues.
+For /Facilities - List of Breastfeeding facilities. This is stored json data in the facilities folder (which is attached) 
+
+![][image5]![][image6]
+
+The data is all relevent to what you might want to find for such an app
 
 ###App Design.
 
 A simple diagram showing the app's component design, in particular controllers and services (see example below).
 
-![][image2]
+![][controllers]
 
 ###UI Design.
 
-. . . . . Screenshots of app's views (see example below) with appropriate captions (excluding user regeneration and login views) . . . . . . . 
+Screenshot of home:
 
-![][image3]
+![][image7]
+
+Screenshot of /facilities:
+
+![][image8]
+
+Screenshot of /facilities/:id:
+
+![][image9]
+
+Screenshot of /add
+
+![][image10]
+
+Screenshot of /feedback
+
+![][image11]
+
+Screenshot of /about
+
+![][image12]
 
 ###Routing.
 
@@ -91,14 +116,14 @@ I sure wished I had stored the url's of every stack overflow discussion page now
 + how to style a webpage
 
 Links:
-https://docs.angularjs.org/api/ng/directive/ngController
-https://scotch.io/tutorials/angularjs-form-validation
-http://viralpatel.net/blogs/angularjs-controller-tutorial/
-http://jasonwatmore.com/post/2015/03/10/AngularJS-User-Registration-and-Login-Example.aspx
-http://embed.plnkr.co/tg25kr/preview
-http://stackoverflow.com/questions/30791458/username-and-password-validation-in-html
-http://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
-http://dev.filkor.org/2013/04/14/create-an-interactive-map-using-javascript-and-html-5-canvas/
++ https://docs.angularjs.org/api/ng/directive/ngController
++ https://scotch.io/tutorials/angularjs-form-validation
++ http://viralpatel.net/blogs/angularjs-controller-tutorial/
++ http://jasonwatmore.com/post/2015/03/10/AngularJS-User-Registration-and-Login-Example.aspx
++ http://embed.plnkr.co/tg25kr/preview
++ http://stackoverflow.com/questions/30791458/username-and-password-validation-in-html
++ http://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
++ http://dev.filkor.org/2013/04/14/create-an-interactive-map-using-javascript-and-html-5-canvas/
 
 
 
