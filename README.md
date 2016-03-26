@@ -48,7 +48,7 @@ A simple diagram showing the app's component design, in particular controllers a
 
 ###UI Design.
 
-Screenshot of home:
+Screenshot of /landing
 
 ![][image7]
 
@@ -71,6 +71,8 @@ Screenshot of /feedback
 Screenshot of /about
 
 ![][image12]
+
+Screenshot of /home
 
 ###Routing.
 
@@ -124,6 +126,16 @@ Links:
 + http://stackoverflow.com/questions/30791458/username-and-password-validation-in-html
 + http://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
 + http://dev.filkor.org/2013/04/14/create-an-interactive-map-using-javascript-and-html-5-canvas/
++ http://www.w3schools.com/css/css_font.asp
++ http://stackoverflow.com/questions/16261348/descending-order-by-date-filter-in-angularjs
++ http://v4-alpha.getbootstrap.com/components/input-group/
++ http://www.w3schools.com/html/html_forms.asp
++ http://www.w3schools.com/tags/att_input_type.asp
++ http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_time
++ http://www.w3schools.com/html/html_form_elements.asp 
++ http://www.w3schools.com/cssref/css_colors.asp
+
+
 
 
 
